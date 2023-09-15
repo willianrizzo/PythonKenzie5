@@ -19,6 +19,7 @@ class Residencia:
         return(
             f"<Localiado em: {self.endereco}\n"
             f"QTD quartos {self.num_quartos}\n"
+            f"Alugado em : {self.alugao_em}\n"
             f"Valor total: {self.preco}>"
         )
         # return f"<Localiado em: {self.endereco}\n QTD quartos {self.num_quartos}\n Valor total: {self.preco}"
